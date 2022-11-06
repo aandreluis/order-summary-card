@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  /*Primary*/
+  --pale-blue: #e0e8ff;
+  --bright-blue: #3829e0;
+
+  /*Neutral*/
+  --very-pale-blue: #f5f7ff;
+  --desaturated-blue: #7280a7;
+  --dark-blue: #1f2f56;
+
+  --card-box-shadow: rgba(114, 128, 167, 0.6);
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--pale-blue);
+  background-image: url(../../public/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+
+  color: var(--desaturated-blue);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#card {
+  width: 420px;
+  border-radius: 16px;
+  background-color: var(--very-pale-blue);
+  box-shadow: 0px 10px 12px -3px var(--card-box-shadow);
+}
+
+#card img {
+  max-width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+#card .content {
+  padding: 32px 36px;
+}
+
+#card .content .text-content {
+  padding: 0px 17px;
+}
+
+#card .text {
+  text-align: center;
+}
+
+#card .text h1 {
+  font-size: 26px;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+#card .text p {
+  margin-top: 16px;
+}
+
+#card .payment {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card .payment .payment-details {
+  display: flex;
+  align-items: center;
+}
+
+#card .payment .payment-details span {
+  margin-left: 18px;
+}
+
+#card .payment .payment-details span p:first-child {
+  color: var(--dark-blue);
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+#card .payment a {
+  color: var(--bright-blue);
+  font-weight: 700;
+}
+
+#card .payment a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+#card .buttons {
+  padding: 8px 0;
+}
+
+#card .buttons .btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+#card .buttons .btn-payment {
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  box-shadow: 0px 10px 12px -3px var(--card-box-shadow);
+}
+
+#card .buttons .btn-payment:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+#card .buttons .btn-cancel {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  margin-top: 10px;
+}
+
+#card .buttons .btn-cancel:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
+  transition: 0.3s;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 16px;
+  color: var(--desaturated-blue);
+}
+
+.attribution a {
+  color: var(--bright-blue);
+}
+
+/* Mobile */
+@media (max-width: 375px) {
+  #card {
+    width: 90%;
+  }
+
+  #card .content {
+    padding: 24px 14px;
+  }
+
+  #card .content .text-content {
+    padding: 0px 16px;
+  }
+
+  #card .payment {
+    padding: 30px 0;
+  }
+}
