@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📸 Screenshots
 
 <p align="center">
-  <img alt="rocketpay" src=".github/order-summary-component-main.png" width="100%">
+  <img alt="order-summary-component" src=".github/order-summary-component-main.png" width="100%">
 </p>
 
 ## 🌎 Links
