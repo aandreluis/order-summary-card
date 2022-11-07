@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ...
 
-<!-- - Solution: []()
-- Live Site: []() -->
+- Solution: [https://www.frontendmentor.io/solutions/order-summary-component-html-css-K12xLQ49GS](https://www.frontendmentor.io/solutions/order-summary-component-html-css-K12xLQ49GS)
+- Live Site: [https://order-summary-card-aandreluis.netlify.app/](https://order-summary-card-aandreluis.netlify.app/)
 
 ---
